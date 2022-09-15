@@ -1,0 +1,35 @@
+{
+    "name": "bulls_cows",
+    "title": "Bulls-Cows Mind game",
+    "version": "0.0.1",
+    "description": "Bulls and cows puzzle game",
+    "homepage": "https://github.com/NioniosFr/js-bulls-cows",
+    "main": "bulls_and_cows.js",
+    "scripts": {
+      "serve": "node_modules/serve/bin/serve.js",
+      "test": "echo \" : no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/NioniosFr/js-bulls-cows/.git"
+    },
+    "bugs": "https://github.com/NioniosFr/js-bulls-cows/issues",
+    "author": {
+      "name": "[NioniosFr] Dionysios Fryganas",
+      "url": "https://github.com/NioniosFr"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "twitter-bootstrap": "https://github.com/twbs/bootstrap/archive/v3.4.1.tar.gz"
+    },
+    "devDependencies": {
+      "serve": "~11.2.0",
+      "grunt": "~1.0.4",
+      "grunt-contrib-uglify": "~4.0.1",
+      "grunt-contrib-jshint": "~2.1.0",
+      "grunt-contrib-watch": "~1.1.0",
+      "grunt-contrib-clean": "~2.0.0",
+      "grunt-contrib-concat": "~1.0.1",
+      "grunt-contrib-copy": "~1.0.0"
+    }
+  }
